@@ -158,6 +158,8 @@
   .founder-card.no-img .founder-img { display: none; }
   .founder-card.no-img .founder-img-fallback { display: flex; }
   .founder-name { font-family: var(--display); font-weight: 600; font-size: 1.1rem; color: var(--ink); margin-top: 1rem; }
+  .founder-name a { color: inherit; text-decoration: none; border-bottom: 1.5px solid transparent; transition: color 0.2s, border-color 0.2s; }
+  .founder-name a:hover { color: var(--berry); border-color: var(--berry); }
   .founder-role { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; color: #a08289; margin-top: 0.2rem; }
   .founders-blurb p { margin-bottom: 1.2rem; font-size: 1.05rem; }
   .founders-blurb strong { color: var(--ink); }
@@ -388,19 +390,19 @@
         <div class="founder-card" onerror-handled>
           <img class="founder-img" src="images/maria.founder.png" alt="Maria Showalter" onerror="this.parentElement.classList.add('no-img')">
           <div class="founder-img-fallback">MS</div>
-          <p class="founder-name">Maria Showalter</p>
+          <p class="founder-name"><a href="https://www.linkedin.com/in/maria-showalter-16a905240/" target="_blank" rel="noopener noreferrer">Maria Showalter</a></p>
           <p class="founder-role">Co-founder · Barnard, Columbia</p>
         </div>
         <div class="founder-card">
           <img class="founder-img" src="images/gabriela.founder.png" alt="Gabriela Martinez" onerror="this.parentElement.classList.add('no-img')">
           <div class="founder-img-fallback">GM</div>
-          <p class="founder-name">Gabriela Martinez</p>
-          <p class="founder-role">Co-founder</p>
+          <p class="founder-name"><a href="https://www.linkedin.com/in/gabrielasarahimartinezrodriguez/" target="_blank" rel="noopener noreferrer">Gabriela Martinez</a></p>
+          <p class="founder-role">Co-founder · Barnard, Columbia</p>
         </div>
       </div>
       <div class="founders-blurb">
-        <p class="reveal"><strong>We both made it to college without ever hearing the words "venture capital."</strong> Maria spent thirteen years at an all-girls school in Baltimore where the career menu was doctor, lawyer, maybe engineer — and found the startup world by accident, through a club application she almost didn't submit.</p>
-        <p class="reveal">The Audacity Project is the program we wish someone had handed us at sixteen: real knowledge about startups and VC, and deliberate practice at the bold asks that this world runs on.</p>
+        <p class="reveal"><strong>We met as freshman roommates at Barnard — and three years later we still live together.</strong> We grew up worlds apart: Maria at an all-girls school in Baltimore, Gabriela in Mexico by way of a United World College in Bosnia. Neither of us ever heard the words "venture capital" growing up.</p>
+        <p class="reveal">We both fell into the startup world the same way — by accident, through Columbia's entrepreneurship club — and had the same reaction: <em>why is no one telling girls about this sooner?</em> The Audacity Project is the program we wish someone had handed us at sixteen: real knowledge about startups and VC, and deliberate practice at the bold asks this world runs on.</p>
         <p class="reveal"><a class="text-link" href="story.html">Read our full story →</a></p>
       </div>
     </div>
@@ -702,7 +704,7 @@
       <div class="footer-word">the <em>audacity</em><br>project</div>
     </div>
     <div class="footer-meta">
-      <p>Founded by Maria Showalter &amp; Gabriela Martinez</p>
+      <p>Founded by <a href="https://www.linkedin.com/in/maria-showalter-16a905240/" target="_blank" rel="noopener noreferrer">Maria Showalter</a> &amp; <a href="https://www.linkedin.com/in/gabrielasarahimartinezrodriguez/" target="_blank" rel="noopener noreferrer">Gabriela Martinez</a></p>
       <p style="margin-top:0.4rem">Baltimore &amp; New York · Piloted at The Bryn Mawr School</p>
       <p style="margin-top:0.4rem"><a href="mailto:hello@theaudacityproject.org">hello@theaudacityproject.org</a></p>
     </div>
